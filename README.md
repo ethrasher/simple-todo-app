@@ -1,3 +1,10 @@
+Hello,
+This is me working on my frontend webapp skills and learning about React.
+I followed this tutorial here: https://ibaslogic.com/react-tutorial-for-beginners/
+
+__________________________________
+Default readme
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
