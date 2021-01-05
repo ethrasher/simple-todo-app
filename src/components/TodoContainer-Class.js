@@ -1,11 +1,11 @@
 import React from "react";
 import axios from "axios";
 import { v4 as uuidv4 } from "uuid"; // From npm i uuid
-import TodosList from "./TodosList";
-import Header from "./Header";
-import InputTodo from "./InputTodo";
+import TodosList from "./TodosList-Class";
+import Header from "./Header-Class";
+import InputTodo from "./InputTodo-Class";
 
-class TodoContainer extends React.Component {
+class TodoContainerClass extends React.Component {
   state = {
     todos: [],
     show: false
@@ -70,4 +70,4 @@ class TodoContainer extends React.Component {
   }
 }
 
-export default TodoContainer
+export default TodoContainerClass

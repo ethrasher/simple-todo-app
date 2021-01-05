@@ -3,7 +3,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // component file
-import TodoContainer from "./components/TodoContainer";
 import "./App.css"
+import TodoContainerClass from "./components/TodoContainer-Class";
+import TodoContainerHook from "./components/TodoContainer-Hook";
 
-ReactDOM.render(<TodoContainer />, document.getElementById("root"))
+const useReactClasses = false;
+
+if (useReactClasses) {
+  ReactDOM.render(<TodoContainerClass />, document.getElementById("root"))
+} else {
+  ReactDOM.render(<TodoContainerHook />, document.getElementById("root"))
+}
